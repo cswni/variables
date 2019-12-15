@@ -7,13 +7,12 @@ public class Variables {
     public String cedula;
     //getters
     //setters
-    public void setNombre(String n){
-        this.nombre = n;
+    /*Guardar el nombre de la persona*/
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
-    public void setSexo(){
-        this.sexo = 'H';
-    }
+    /*Mostrar el nombre de la persona*/
     public String getNombre(){
         return this.nombre;
-    }
+    }    
 }
